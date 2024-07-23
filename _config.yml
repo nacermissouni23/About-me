@@ -1,0 +1,31 @@
+# Site settings
+title: My Personal Website
+description: Welcome to my personal website where I share my projects and documents.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://<your-username>.github.io" # the base hostname & protocol for your site
+
+# Social media settings (optional)
+social_links:
+  github: https://github.com/<your-username>
+  linkedin: https://www.linkedin.com/in/<your-linkedin-id>
+  twitter: https://twitter.com/<your-twitter-id>
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Google Analytics (optional)
+google_analytics: UA-XXXXXXXX-X
+
+# Exclude these files from the site
+exclude:
+  - README.md
+  - LICENSE.txt
+
+# Other settings
+paginate: 5
